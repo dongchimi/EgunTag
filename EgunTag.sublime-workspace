@@ -1,0 +1,300 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"myA",
+				"myAssetLi"
+			],
+			[
+				"signin",
+				"signin_Click"
+			],
+			[
+				"userE",
+				"userEmail"
+			],
+			[
+				"inOutTransfer",
+				"inOutTransferName"
+			],
+			[
+				"inOutT",
+				"inOutTransfer"
+			],
+			[
+				"totalA",
+				"totalAmount"
+			],
+			[
+				"mon",
+				"moneyBookItems"
+			],
+			[
+				"moneyB",
+				"moneyBookItems"
+			],
+			[
+				"startD",
+				"startDay"
+			],
+			[
+				"MoneyB",
+				"MoneyBookItems"
+			],
+			[
+				"foundMon",
+				"foundMoneyBookItemsWithStartEndDay"
+			],
+			[
+				"Mone",
+				"MoneyBookItems"
+			],
+			[
+				"Money",
+				"MoneyBookItems"
+			],
+			[
+				"o",
+				"oid"
+			],
+			[
+				"tag",
+				"tagsString"
+			],
+			[
+				"mone",
+				"moneyBookItem"
+			],
+			[
+				"paramN",
+				"paramName"
+			],
+			[
+				"tagS",
+				"tagString"
+			],
+			[
+				"tagL",
+				"tagLength"
+			],
+			[
+				"found",
+				"foundMoneyBookItems"
+			],
+			[
+				"dash",
+				"dashedDate"
+			],
+			[
+				"da",
+				"dashedDate"
+			],
+			[
+				"dashedY",
+				"dashedYYYYMMDD"
+			],
+			[
+				"curr",
+				"currentDate"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"addRe",
+				"Package Control: Add Repository"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Add Repository"
+			],
+			[
+				"PackageControl: In",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 129.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/dongchimi/AppData/Roaming/Sublime Text 2/Packages/Nodejs/Nodejs.sublime-settings",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/EgunUtils.js",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/auth/Signup.js",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/auth/signup.html",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/auth/Signin.js",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/auth/signin.html",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/jquery.cookie.js",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/EgunCommon.js",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/moneyBook/MoneyBooks.js",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/moneyBook/moneyBooks.html",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/moneyBook/newMoneyBookItem.html",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/asset/newAsset.html",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/asset/NewAsset.js",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/asset/assets.html",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/moneyBook/NewMoneyBookItem.js",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/moneyBook/moneyBookItems.html",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/moneyBook/MoneyBookItems.js",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/src/main/webapp/script/asset/Assets.js",
+		"/C/Users/dongchimi/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/C/Users/dongchimi/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/C/Users/dongchimi/AppData/Roaming/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/.settings/org.eclipse.core.resources.prefs",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/.settings/org.eclipse.jdt.core.prefs",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/.settings/org.eclipse.m2e.core.prefs",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/.settings/org.maven.ide.eclipse.prefs",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/.classpath",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/.project",
+		"/D/egun-money/dev/workspace/EgunMoney/EgunMoneyApp/pom.xml"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"assets",
+			"loadMoneyBookItem",
+			"SigninUtil",
+			"StringUtil",
+			"registerMoneyBookItem_Click ",
+			"getThisMonth_Click",
+			"getTotalAmountUntilDay",
+			"addMonth",
+			"minusMonth",
+			"getTodayBaseDayOfMoneyBook",
+			"getMoneyBookItems",
+			"viewMoneyBookItems",
+			"MoneyBookItems.convertTagListToString",
+			"getMoneyBookItemByItemOid",
+			"okId = egun.sessionStorage.getItem(EgunSessionStorage.Key_CURRENT_MONEYBOOK);\n	",
+			"registerMoneyBookItem_Callback",
+			"var",
+			"1.0",
+			"scrolling"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"StringUtil.convertTagListToString"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
