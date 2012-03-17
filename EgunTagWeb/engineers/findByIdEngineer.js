@@ -15,7 +15,4 @@ findByIdEngineer.work = function(id, next) {
 	});
 };
 
-
-
-
 module.exports = findByIdEngineer;
