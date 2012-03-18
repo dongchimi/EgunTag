@@ -28,6 +28,7 @@ app.configure('production', function(){
 
 // Routes
 app.get('/', routes.index);
+app.get('/tags', routes.tags);
 
 app.get('/save/:names', function(req, res) {
 	var names = req.params.names;
