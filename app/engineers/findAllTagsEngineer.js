@@ -8,11 +8,16 @@ findAllTagsEngineer.work = function(nextFunction) {
 	console.log("My name is " + this.name + "Engineer");
 
 	EgunTag.find().run(function(err, docs){
-		if(!err) console.log(docs);
-		else console.log('err');
+		if(!err) {
+			console.log(docs);
+		}
+		else {
+			console.log('err');
+		}
+
+		nextFunction(docs);
 	});
 
-	nextFunction();
 };
 
 module.exports = findAllTagsEngineer;

@@ -15,14 +15,18 @@ saveEngineer.work = function(names, next) {
 					for(var idx = 0; idx < paramLength; idx++) {
 						var tagName = names[idx].trim();
 
-						if(existName(docs, tagName)) continue;
-
-						var eguntag = new EgunTag({name: tagName});
-						eguntag.save(function(err) {
-							if(!err) console.log('Success!');
-							else console.log('Error');
-							next();
-						});
+						if(existName(docs, tagName)) {
+							// TODO update
+							continue;
+						}
+						else {
+							var eguntag = new EgunTag({name: tagName});
+							eguntag.save(function(err) {
+								if(!err) console.log('Success!');
+								else console.log('Error');
+								next();
+							});
+						}
 					}
 				}
 				else {

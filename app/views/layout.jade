@@ -1,6 +1,10 @@
 !!!
 html
   head
-    title= title
+    title= locals.title
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body!= body
+    // link(rel='stylesheet', href='stylesheets/bootstrap.min.css')
+    // link(rel='stylesheet', href='stylesheets/bootstrap-responsive.min.css')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js')
+    script(src='javascripts/eguntag.js')
+  body!= locals.body
