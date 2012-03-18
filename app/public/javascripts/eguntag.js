@@ -9,9 +9,12 @@ eguntag.remove = function(element){
 	var $thisRow = $this.parent().parent();
 	$thisRow.fadeOut('slow', function() {
 		$thisRow.remove();
+<<<<<<< HEAD
 		var $totalTagSize = $("#totalTagSize");
 		var size = $totalTagSize.text();
 		$totalTagSize.text( --size );
+=======
+>>>>>>> 80e96bd8291f66a90c98f557f3f2aa3015957699
 	})
 };
 
