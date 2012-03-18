@@ -1,9 +1,12 @@
-h1= title
-p Welcome to #{title}
-
-p save : a./save
-p update :
-p deleteById : 
-p findByName : 
-p findById : 
-p findAllTags : 
+h1 이건태그 관리 페이지
+제공페이지
+p
+	a(href="/tags") 태그목록보기
+br
+제공 apis
+p save : http://eguntag.dongchimi.org/save/태그이름들("," 콤마로 구분)
+p update : 필요하면 개발
+p deleteById : http://eguntag.dongchimi.org/save/id (단건)
+p findByName : http//eguntag.dongchimi.org/findByName/태그이름 (단건)
+p findById : http://eguntag.dongchimi.org/findById/태그이름 (단건)
+p findAllTags : http://eguntag.dongchimi.org/findAllTags/태그이름

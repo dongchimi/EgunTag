@@ -15,14 +15,30 @@ saveEngineer.work = function(names, next) {
 					for(var idx = 0; idx < paramLength; idx++) {
 						var tagName = names[idx].trim();
 
-						if(existName(docs, tagName)) continue;
-
-						var eguntag = new EgunTag({name: tagName});
-						eguntag.save(function(err) {
-							if(!err) console.log('Success!');
-							else console.log('Error');
-							next();
-						});
+						var foundDoc = findDocByName(docs, tagName);
+						// 업데이트
+						if(foundDoc != null) {
+							var usingCount = foundDoc.usingCount;
+							usingCount++;
+							EgunTag.update({_id: foundDoc._id}, {usingCount: usingCount}, function(err){
+								if(!err) {
+									console.log('update success');
+								}
+								else {
+									console.log('update err');
+								}
+								next();
+							});
+						}
+						// 새로입력
+						else {
+							var eguntag = new EgunTag({name: tagName});
+							eguntag.save(function(err) {
+								if(!err) console.log('Success!');
+								else console.log('Error');
+								next();
+							});
+						}
 					}
 				}
 				else {
@@ -32,19 +48,25 @@ saveEngineer.work = function(names, next) {
 			});
 };
 
-var existName = function(docs, name) {
-	if(egunUtil.ArrayUtil.isEmpty(docs)) return false;
+var findDocByName = function(docs, name) {
+	if(egunUtil.ArrayUtil.isEmpty(docs)) return null;
 
-	var found = false;
+	var foundDoc = null;
 	var docLength = docs.length;
 	for(var idx = 0; idx < docLength; idx++) {
 		var doc = docs[idx];
 
 		if(doc.name != name) continue;
 
-		found = true;
+		foundDoc = doc;
+		break;
 	}
-	return found;
+	return foundDoc;
+}
+
+var existName = function(docs, name) {
+	var foundDoc = findDocByName(docs, name);
+	return foundDoc != null;
 }
 
 

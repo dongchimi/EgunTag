@@ -4,9 +4,9 @@ var mongoose = require('mongoose'),
 mongoose.connect('mongodb://localhost/eguntag');
 
 var Tag = new Schema ({
-	id: ObjectId,
 	name : {type: String},
-	date : {type: Date, default: Date.now}
+	date : {type: Date, default: Date.now},
+	usingCount : {type: Number, default: 1}
 });
 
 var models = {
