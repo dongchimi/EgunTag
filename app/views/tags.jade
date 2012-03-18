@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 h1 사용중인 태그들
 p 총태그수 : 
 	span#totalTagSize #{foundDocs.length}
@@ -20,36 +19,8 @@ table#tagTable(border='1px')
 				button(onclick="eguntag.remove(this)", class="pointer", data-tagid='#{doc._id}') 삭제
 br
 button#newBtn(onclick='eguntag.new(this)', class="pointer") new
-=======
-div#container
-	h1 사용중인 태그들
-	br
-	p 총태그수 : #{foundDocs.length}
-	table#tagTable(border='1px')
-		thead
-			tr
-				th id
-				th tag-name
-				th date
-				th 사용횟수
-				th 
-		each doc, idx in foundDocs
-			tr
-				td #{doc._id}
-				td #{doc.name}
-				td #{doc.date}
-				td #{doc.usingCount}
-				td 
-					button(onclick="eguntag.remove(this)", class="pointer", data-tagid='#{doc._id}') 삭제
-	button#newBtn(onclick='eguntag.new(this)') new
-
->>>>>>> 80e96bd8291f66a90c98f557f3f2aa3015957699
 div#newTagForm(style='display:none')
 	form(method='get', onsubmit='return false;')
 		label 태그명
 		input(name='tagname')
-<<<<<<< HEAD
 		button(onclick='eguntag.save(this)', class="pointer") 저장
-=======
-		button(onclick='eguntag.save(this)') 저장
->>>>>>> 80e96bd8291f66a90c98f557f3f2aa3015957699

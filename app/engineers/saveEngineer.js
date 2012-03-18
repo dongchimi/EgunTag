@@ -15,7 +15,6 @@ saveEngineer.work = function(names, next) {
 					for(var idx = 0; idx < paramLength; idx++) {
 						var tagName = names[idx].trim();
 
-<<<<<<< HEAD
 						var foundDoc = findDocByName(docs, tagName);
 						// 업데이트
 						if(foundDoc != null) {
@@ -32,12 +31,6 @@ saveEngineer.work = function(names, next) {
 							});
 						}
 						// 새로입력
-=======
-						if(existName(docs, tagName)) {
-							// TODO update
-							continue;
-						}
->>>>>>> 80e96bd8291f66a90c98f557f3f2aa3015957699
 						else {
 							var eguntag = new EgunTag({name: tagName});
 							eguntag.save(function(err) {
